@@ -185,6 +185,7 @@
             btnfoto.TabIndex = 43;
             btnfoto.Text = "Fotoğraf Ekle";
             btnfoto.UseVisualStyleBackColor = true;
+            btnfoto.Click += btnfoto_Click_1;
             // 
             // button1
             // 

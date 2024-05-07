@@ -17,6 +17,7 @@ C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-w
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.AssemblyInfoInputs.cache
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.AssemblyInfo.cs
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.CopyComplete
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.dll
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\refint\MarketOtomasyonu.dll
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.pdb
@@ -34,4 +35,81 @@ C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-w
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form8.resources
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form9.resources
 C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form14.resources
-C:\Users\erkan\source\repos\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOt.38151669.Up2Date
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.exe
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.deps.json
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.runtimeconfig.json
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.pdb
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form1.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form10.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form11.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form12.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form13.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form14.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form2.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form3.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form4.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form5.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form6.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form7.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form8.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form9.resources
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.AssemblyInfo.cs
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.CopyComplete
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\refint\MarketOtomasyonu.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.pdb
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.genruntimeconfig.cache
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\ref\MarketOtomasyonu.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+C:\Users\pc\Desktop\Yeni klasör\Market-Automation-Csharp--main\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.exe
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.deps.json
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.runtimeconfig.json
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\MarketOtomasyonu.pdb
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form1.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form10.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form11.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form12.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form13.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form14.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form2.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form3.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form4.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form5.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form6.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form7.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form8.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.Form9.resources
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.GenerateResource.cache
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.AssemblyInfoInputs.cache
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.AssemblyInfo.cs
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\refint\MarketOtomasyonu.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.pdb
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOtomasyonu.genruntimeconfig.cache
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\ref\MarketOtomasyonu.dll
+C:\Users\erkan\OneDrive\Masaüstü\01.04 Market\MarketOtomasyonu\MarketOtomasyonu\obj\Debug\net8.0-windows\MarketOt.38151669.Up2Date

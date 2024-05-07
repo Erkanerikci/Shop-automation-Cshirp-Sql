@@ -37,6 +37,8 @@
             button3 = new Button();
             button4 = new Button();
             labeltoplam = new Label();
+            numericUpDown1 = new NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // listBox1
@@ -123,11 +125,20 @@
             labeltoplam.Size = new Size(0, 15);
             labeltoplam.TabIndex = 3;
             // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(99, 335);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(120, 23);
+            numericUpDown1.TabIndex = 4;
+            numericUpDown1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
             // Form14
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(numericUpDown1);
             Controls.Add(labeltoplam);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -140,6 +151,7 @@
             Name = "Form14";
             Text = "Form14";
             Load += Form14_Load;
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -155,5 +167,6 @@
         private Button button3;
         private Button button4;
         private Label labeltoplam;
+        private NumericUpDown numericUpDown1;
     }
 }

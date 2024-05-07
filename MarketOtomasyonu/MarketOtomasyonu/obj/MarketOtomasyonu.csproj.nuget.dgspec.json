@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erkan\\source\\repos\\MarketOtomasyonu\\MarketOtomasyonu\\MarketOtomasyonu.csproj": {}
+    "C:\\Users\\erkan\\OneDrive\\Masaüstü\\01.04 Market\\MarketOtomasyonu\\MarketOtomasyonu\\MarketOtomasyonu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erkan\\source\\repos\\MarketOtomasyonu\\MarketOtomasyonu\\MarketOtomasyonu.csproj": {
+    "C:\\Users\\erkan\\OneDrive\\Masaüstü\\01.04 Market\\MarketOtomasyonu\\MarketOtomasyonu\\MarketOtomasyonu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erkan\\source\\repos\\MarketOtomasyonu\\MarketOtomasyonu\\MarketOtomasyonu.csproj",
+        "projectUniqueName": "C:\\Users\\erkan\\OneDrive\\Masaüstü\\01.04 Market\\MarketOtomasyonu\\MarketOtomasyonu\\MarketOtomasyonu.csproj",
         "projectName": "MarketOtomasyonu",
-        "projectPath": "C:\\Users\\erkan\\source\\repos\\MarketOtomasyonu\\MarketOtomasyonu\\MarketOtomasyonu.csproj",
+        "projectPath": "C:\\Users\\erkan\\OneDrive\\Masaüstü\\01.04 Market\\MarketOtomasyonu\\MarketOtomasyonu\\MarketOtomasyonu.csproj",
         "packagesPath": "C:\\Users\\erkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erkan\\source\\repos\\MarketOtomasyonu\\MarketOtomasyonu\\obj\\",
+        "outputPath": "C:\\Users\\erkan\\OneDrive\\Masaüstü\\01.04 Market\\MarketOtomasyonu\\MarketOtomasyonu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
             }
           },
           "imports": [

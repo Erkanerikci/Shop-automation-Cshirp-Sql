@@ -52,7 +52,7 @@ namespace MarketOtomasyonu
             pictureBox1.Image = ByteArrayToImage(imageData);
         }
 
-        private void btnfoto_Click(object sender, EventArgs e)
+        private void btnfoto_Click_1(object sender, EventArgs e)
         {
             OpenFileDialog dosya = new OpenFileDialog();
             dosya.Filter = "resim Dosyası |*.jpg;*.nef;*.png |  Tüm Dosyalar |*.*";
@@ -221,5 +221,9 @@ namespace MarketOtomasyonu
                 return new Bitmap(image);
             }
         }
+
+        
     }
+    
+
 }

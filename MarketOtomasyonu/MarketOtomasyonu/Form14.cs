@@ -8,6 +8,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.IO;
+using System.Reflection.Metadata;
+using Document = iTextSharp.text.Document;
+using com.itextpdf.text.pdf;
 
 namespace MarketOtomasyonu
 {
@@ -62,11 +68,13 @@ namespace MarketOtomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             if (listBox1.SelectedItem != null)
             {
                 string selectedProduct = listBox1.SelectedItem.ToString();
+                int quantity = (int)numericUpDown1.Value;
 
-                if (!listBox2.Items.Contains(selectedProduct))
+                for (int i = 0; i < quantity; i++)
                 {
                     listBox2.Items.Add(selectedProduct);
                 }
@@ -96,7 +104,7 @@ namespace MarketOtomasyonu
             foreach (string item in listBox2.Items)
             {
                 string[] splitItem = item.Split('|');
-                string fiyatString = splitItem[splitItem.Length - 2].Trim(); 
+                string fiyatString = splitItem[splitItem.Length - 2].Trim();
 
                 if (double.TryParse(fiyatString, out double fiyat))
                 {
@@ -105,31 +113,71 @@ namespace MarketOtomasyonu
             }
             labeltoplam.Text = $"Toplam Fiyat: {toplamFiyat.ToString("C2")}";
         }
+        private void YenileListBox1()
+        {
+            listBox1.Items.Clear();
+
+            try
+            {
+                string sorgu = @"SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM yiyecek
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM elektronik
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM eglence
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM icecek
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM temizlik
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM guzellik
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM beyazesya
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM giyim
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM ayakkabı
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM spor
+             UNION ALL SELECT Barkod,UrunAdı, Uretici, Stok, Fiyat FROM saglık";
+
+                using (SqlConnection connection = new SqlConnection(baglanti.ConnectionString))
+                {
+                    connection.Open();
+                    using (SqlCommand command = new SqlCommand(sorgu, connection))
+                    {
+                        SqlDataReader reader = command.ExecuteReader();
+                        while (reader.Read())
+                        {
+                            listBox1.Items.Add($"{reader["Barkod"]} | {reader["UrunAdı"]} | {reader["Uretici"]} | {reader["Fiyat"]} | {reader["Stok"]}");
+                        }
+                        reader.Close();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Verileri getirme hatası: " + ex.Message);
+            }
+        }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Dictionary<string, string> tabloAdlari = new Dictionary<string, string>
-{
-    { "yiyecek", "yiyecek" },
-    { "elektronik", "elektronik" },
-    { "beyazesya", "beyazesya" },
-    { "giyim", "giyim" },
-    { "ayakkabı", "ayakkabı" },
-    { "spor", "spor" },
-    { "saglık", "saglık" },
-    { "temizlik", "temizlik" },
-    { "icecek", "icecek" },
-    { "eglence", "eglence" },
-    { "guzellik", "guzellik" }
-};
+            {
+                { "yiyecek", "yiyecek" },
+                { "elektronik", "elektronik" },
+                { "beyazesya", "beyazesya" },
+                { "giyim", "giyim" },
+                { "ayakkabı", "ayakkabı" },
+                { "spor", "spor" },
+                { "saglık", "saglık" },
+                { "temizlik", "temizlik" },
+                { "icecek", "icecek" },
+                { "eglence", "eglence" },
+                { "guzellik", "guzellik" }
+            };
+
+            // Fiş çıktısını oluştur
+            StringBuilder receipt = new StringBuilder();
+            receipt.AppendLine("------ Fis Ciktisi ------");
 
             foreach (string item in listBox2.Items)
             {
                 string[] splitItem = item.Split('|');
-                string urunAdi = splitItem[0].Trim();
-                string tabloAdi = tabloAdlari.FirstOrDefault(x => item.Contains(x.Key)).Value;
+                string barkod = splitItem[0].Trim();
 
-                if (!string.IsNullOrEmpty(tabloAdi))
+                foreach (var tabloAdi in tabloAdlari.Values)
                 {
                     try
                     {
@@ -140,28 +188,60 @@ namespace MarketOtomasyonu
 
                             using (SqlCommand command = new SqlCommand(query, connection))
                             {
-                                command.Parameters.AddWithValue("@Barkod", urunAdi);
+                                command.Parameters.AddWithValue("@Barkod", barkod);
                                 int affectedRows = command.ExecuteNonQuery();
 
                                 if (affectedRows > 0)
                                 {
-                                    MessageBox.Show($"Stoktan {urunAdi} adlı ürün başarıyla düşüldü.");
-                                }
-                                else
-                                {
-                                    MessageBox.Show($"Stoktan {urunAdi} adlı ürün düşülemedi.");
+                                    
+                                    break;
                                 }
                             }
                         }
                     }
+                    
+                    
                     catch (Exception ex)
                     {
-                        MessageBox.Show("Hata: " + ex.Message);
+                        
                     }
                 }
+
+                receipt.AppendLine(item);
+            }
+            receipt.AppendLine(labeltoplam.Text);
+            receipt.AppendLine("-------------------------");
+
+            try
+            {
+        
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "PDF Dosyaları|*.pdf";
+                saveFileDialog.Title = "PDF Olarak Kaydet";
+                saveFileDialog.ShowDialog();
+
+                // Eğer kullanıcı bir dosya seçtiyse
+                if (saveFileDialog.FileName != "")
+                {
+                    // PDF dokümanı oluştur
+                    Document pdfDoc = new Document();
+                    PdfWriter.GetInstance(pdfDoc, new FileStream(saveFileDialog.FileName, FileMode.Create));
+                    pdfDoc.Open();
+
+                    // Fiş çıktısını PDF'e yazdır
+                    pdfDoc.Add(new Paragraph(receipt.ToString()));
+
+                    pdfDoc.Close();
+                    MessageBox.Show("Fiş çıktısı başarıyla PDF olarak kaydedildi: " + saveFileDialog.FileName);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("PDF oluşturma hatası: " + ex.Message);
             }
 
             listBox2.Items.Clear();
+            YenileListBox1();
 
         }
     }
