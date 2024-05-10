@@ -1,4 +1,4 @@
-# Bus-automation-Cshirp-Sql
+# Shop-automation-Cshirp-Sql
 
 ## 1.Form for admin login
 ![Ekran görüntüsü 2024-05-08 020132](https://github.com/Erkanerikci/Bus-automation-Cshirp-Sql/assets/114212499/9cb178b4-011d-4bf3-a777-a58b12c0264d)
